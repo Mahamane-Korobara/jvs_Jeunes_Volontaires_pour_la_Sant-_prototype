@@ -74,12 +74,12 @@ export default function AboutPage() {
               </Reveal>
               <Reveal delay={0.15}>
                 <div>
-                  <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#d97706]">Présentation</p>
+                  <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#a95505]">Présentation</p>
                   <h2 className="text-3xl font-extrabold text-[#1b4332] sm:text-4xl">Briser les barrières, informer pour autonomiser</h2>
                   <ul className="mt-8 space-y-4">
                     {objectives.map((obj) => (
                       <li key={obj} className="flex gap-3 leading-7 text-[#41564e]">
-                        <CheckCircle2 className="mt-1 shrink-0 text-[#d97706]" size={20} />
+                        <CheckCircle2 className="mt-1 shrink-0 text-[#a95505]" size={20} />
                         {obj}
                       </li>
                     ))}
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <section className="px-4 py-24 lg:px-8">
             <div className="mx-auto max-w-[1240px]">
               <Reveal className="mb-12 text-center">
-                <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#d97706]">Notre équipe</p>
+                <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#a95505]">Notre équipe</p>
                 <h2 className="text-3xl font-extrabold text-[#1b4332] sm:text-4xl">Rencontrez les visages de JVS</h2>
                 <p className="mx-auto mt-4 max-w-2xl text-[#41564e]">Une équipe engagée de jeunes professionnels qui oeuvrent quotidiennement pour les droits et la santé des jeunes Béninois.</p>
               </Reveal>

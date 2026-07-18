@@ -74,7 +74,7 @@ export default function MobileMoneyDon() {
           {copied ? "Copié" : "Copier"}
         </button>
       </div>
-      <p className="mt-2 text-xs text-[#8a988f]">
+      <p className="mt-2 text-xs text-[#5f6f66]">
         Remplacez « MONTANT » par la somme souhaitée si vous choisissez « Autre ».
       </p>
 

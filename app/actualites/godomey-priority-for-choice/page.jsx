@@ -47,11 +47,11 @@ export default function GodomeyArticle() {
         <Header />
         <main>
           <article className="mx-auto max-w-[820px] px-4 py-14 lg:px-8">
-            <Link href="/actualites" className="inline-flex items-center gap-2 text-sm font-bold text-[#2d6a4f] transition-colors hover:text-[#d97706]">
+            <Link href="/actualites" className="inline-flex items-center gap-2 text-sm font-bold text-[#2d6a4f] transition-colors hover:text-[#a95505]">
               <ArrowLeft size={16} /> Toutes les actualités
             </Link>
 
-            <p className="mt-8 text-sm font-bold uppercase tracking-[0.18em] text-[#d97706]">Campagne · Priority For Choice</p>
+            <p className="mt-8 text-sm font-bold uppercase tracking-[0.18em] text-[#a95505]">Campagne · Priority For Choice</p>
             <h1 className="mt-3 text-3xl font-extrabold leading-tight tracking-tight text-[#1b4332] sm:text-4xl">{TITLE}</h1>
             <time className="mt-4 block text-sm font-semibold text-[#52645d]">Publié le 15 décembre 2025 · Godomey, Abomey-Calavi</time>
 
@@ -71,7 +71,7 @@ export default function GodomeyArticle() {
 
               <blockquote className="border-l-4 border-[#d97706] bg-white px-6 py-5 text-xl font-semibold italic leading-8 text-[#1b4332] shadow-sm">
                 « Nous croyons que l'information sauve des vies. En allant dans les rues, nous rencontrons les jeunes dans leur réalité pour apporter l'information vraie sur leur santé reproductive, sans barrière, sans jugement, afin qu'ils et elles fassent des choix éclairés. »
-                <cite className="mt-3 block text-sm font-bold not-italic text-[#d97706]">— Marilyne SOUROU, Chargée de Communication de JVS</cite>
+                <cite className="mt-3 block text-sm font-bold not-italic text-[#a95505]">— Marilyne SOUROU, Chargée de Communication de JVS</cite>
               </blockquote>
 
               <h2 className="pt-4 text-2xl font-extrabold text-[#1b4332]">Une soif d'information</h2>
@@ -101,7 +101,7 @@ export default function GodomeyArticle() {
             {/* Partage + source */}
             <div className="mt-12 flex flex-col gap-6 border-t border-[#1b4332]/10 pt-8">
               <ShareButtons title={TITLE} />
-              <a href={ORIGINAL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-[#2d6a4f] transition-colors hover:text-[#d97706]">
+              <a href={ORIGINAL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-[#2d6a4f] transition-colors hover:text-[#a95505]">
                 <ExternalLink size={16} /> Lire l'article original sur associationjvs.org
               </a>
             </div>

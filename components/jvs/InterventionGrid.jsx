@@ -26,10 +26,10 @@ export default function InterventionGrid() {
               className="group relative min-h-60 overflow-hidden rounded-3xl bg-gradient-to-b from-[#f1f5ef] to-[#e8f0e8] p-7 transition-colors hover:from-[#1b4332] hover:to-[#143526]"
             >
               <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-[#d97706]/10 transition-transform duration-500 group-hover:scale-150" />
-              <span className="relative mb-8 grid h-12 w-12 place-items-center rounded-2xl bg-white text-[#d97706] shadow-md transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <span className="relative mb-8 grid h-12 w-12 place-items-center rounded-2xl bg-white text-[#a95505] shadow-md transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
                 <Icon />
               </span>
-              <p className="relative mb-3 text-xs font-bold text-[#d97706]">0{i + 1}</p>
+              <p className="relative mb-3 text-xs font-bold text-[#a95505]">0{i + 1}</p>
               <h3 className="relative text-xl font-bold leading-snug text-[#1b4332] transition-colors group-hover:text-white">{title}</h3>
             </motion.article>
           ))}

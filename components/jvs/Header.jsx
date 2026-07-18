@@ -23,12 +23,12 @@ export default function Header() {
   const desktopCls = (href) =>
     `relative text-sm font-semibold transition-colors ${
       isActive(href)
-        ? "text-[#d97706] after:absolute after:-bottom-1.5 after:left-0 after:h-0.5 after:w-full after:rounded-full after:bg-[#d97706] after:content-['']"
-        : "text-[#1b4332] hover:text-[#d97706]"
+        ? "text-[#a95505] after:absolute after:-bottom-1.5 after:left-0 after:h-0.5 after:w-full after:rounded-full after:bg-[#d97706] after:content-['']"
+        : "text-[#1b4332] hover:text-[#a95505]"
     }`;
   const mobileCls = (href) =>
     `block min-h-11 rounded-xl px-4 py-3 font-semibold transition-colors ${
-      isActive(href) ? "bg-[#d97706]/10 text-[#d97706]" : "text-[#1b4332] hover:bg-[#1b4332]/5"
+      isActive(href) ? "bg-[#d97706]/10 text-[#a95505]" : "text-[#1b4332] hover:bg-[#1b4332]/5"
     }`;
 
   return (
@@ -45,7 +45,7 @@ export default function Header() {
         <nav className="hidden items-center gap-6 lg:flex" aria-label="Navigation principale">
           {links.map(([label, href]) =>
             isExternal(href) ? (
-              <a key={label} href={href} className="text-sm font-semibold text-[#1b4332] transition-colors hover:text-[#d97706]">{label}</a>
+              <a key={label} href={href} className="text-sm font-semibold text-[#1b4332] transition-colors hover:text-[#a95505]">{label}</a>
             ) : (
               <Link key={label} href={href} aria-current={isActive(href) ? "page" : undefined} className={desktopCls(href)}>{label}</Link>
             )

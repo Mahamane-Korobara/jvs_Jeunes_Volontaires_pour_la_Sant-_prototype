@@ -20,7 +20,7 @@ export default function ContactForm() {
             initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }}
             className="mt-6 inline-flex items-center gap-2 rounded-2xl bg-[#2d6a4f]/10 px-6 py-5 font-bold text-[#1b4332]"
           >
-            <Check className="text-[#d97706]" /> Message envoyé — démonstration uniquement. Merci !
+            <Check className="text-[#a95505]" /> Message envoyé — démonstration uniquement. Merci !
           </motion.p>
         ) : (
           <motion.form
@@ -51,7 +51,7 @@ export default function ContactForm() {
               <button className="group inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#d97706] px-7 font-bold text-white shadow-lg shadow-[#d97706]/25 transition-transform hover:scale-105">
                 Envoyer <Send size={17} className="transition-transform group-hover:translate-x-0.5" />
               </button>
-              <p className="mt-2 text-xs text-[#8a988f]">Formulaire de démonstration — aucune donnée n'est envoyée ni conservée.</p>
+              <p className="mt-2 text-xs text-[#5f6f66]">Formulaire de démonstration — aucune donnée n'est envoyée ni conservée.</p>
             </div>
           </motion.form>
         )}

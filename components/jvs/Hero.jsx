@@ -51,9 +51,11 @@ export default function Hero() {
         >
           <div className="absolute -left-5 -top-5 h-full w-full rounded-[2.5rem] border-2 border-[#d97706]" />
           <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-tr from-[#1b4332]/20 to-[#d97706]/20 blur-xl" />
+          {/* Préchargement de l'image LCP (React 19 la hisse dans le <head>) */}
+          <link rel="preload" as="image" href="/images/hero-accueil.webp" fetchPriority="high" />
           <img
             src="/images/hero-accueil.webp"
-            width="760" height="900" fetchPriority="high"
+            width="640" height="800" fetchPriority="high"
             className="relative aspect-[4/5] w-full rounded-[2.5rem] object-cover shadow-2xl"
             alt="Jeunes participant à une activité communautaire de JVS au Bénin"
           />

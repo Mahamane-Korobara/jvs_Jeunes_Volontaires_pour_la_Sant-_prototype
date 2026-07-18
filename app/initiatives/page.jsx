@@ -51,7 +51,7 @@ export default function InitiativesPage() {
                 <div className="relative">
                   <h2 className="text-3xl font-extrabold sm:text-4xl">Besoin d'écoute ? Contactez OREMI</h2>
                   <p className="mx-auto mt-4 max-w-xl text-white/85">La ligne d'écoute jeune-à-jeune de JVS, confidentielle et sans jugement.</p>
-                  <Link href="/oremi" className="group mt-8 inline-flex min-h-12 items-center gap-2 rounded-full bg-white px-7 py-3 font-bold text-[#d97706] transition-transform hover:scale-105">
+                  <Link href="/oremi" className="group mt-8 inline-flex min-h-12 items-center gap-2 rounded-full bg-white px-7 py-3 font-bold text-[#a95505] transition-transform hover:scale-105">
                     <PhoneCall size={18} /> Découvrir OREMI <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>

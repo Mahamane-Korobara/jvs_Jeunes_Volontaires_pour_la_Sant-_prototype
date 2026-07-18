@@ -10,7 +10,7 @@ export default function Newsletter() {
     <section className="bg-gradient-to-r from-[#efe9dc] to-[#f5f0e3] px-4 py-16 lg:px-8">
       <div className="mx-auto flex max-w-[1240px] flex-col justify-between gap-7 md:flex-row md:items-center">
         <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-          <p className="text-sm font-bold uppercase tracking-wider text-[#d97706]">Rester informé·e</p>
+          <p className="text-sm font-bold uppercase tracking-wider text-[#a95505]">Rester informé·e</p>
           <h2 className="mt-2 text-3xl font-extrabold text-[#1b4332]">Les nouvelles de JVS, directement.</h2>
         </motion.div>
         <AnimatePresence mode="wait">
@@ -20,7 +20,7 @@ export default function Newsletter() {
               initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.9 }}
               className="inline-flex items-center gap-2 rounded-2xl bg-white px-6 py-4 font-bold text-[#1b4332] shadow-lg"
             >
-              <Check className="text-[#d97706]" /> Merci — inscription de démonstration uniquement.
+              <Check className="text-[#a95505]" /> Merci — inscription de démonstration uniquement.
             </motion.p>
           ) : (
             <motion.form

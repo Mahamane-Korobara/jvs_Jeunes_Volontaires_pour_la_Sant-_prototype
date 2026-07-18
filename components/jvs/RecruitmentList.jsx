@@ -90,7 +90,7 @@ export default function RecruitmentList() {
                 <div>
                   <div className="mb-2 flex items-center gap-3">
                     <Badge statut={j.statut} />
-                    <span className="text-xs font-semibold text-[#8a988f]">{j.projet}</span>
+                    <span className="text-xs font-semibold text-[#5f6f66]">{j.projet}</span>
                   </div>
                   <h3 className="text-lg font-extrabold text-[#1b4332]">{j.poste}</h3>
                   <p className="mt-1 flex items-center gap-1.5 text-sm text-[#52645d]">

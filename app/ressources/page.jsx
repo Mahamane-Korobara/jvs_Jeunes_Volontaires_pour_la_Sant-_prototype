@@ -24,7 +24,7 @@ function RapportCard({ year }) {
       </span>
       <div>
         <h3 className="text-xl font-extrabold text-[#1b4332]">Rapport annuel {year}</h3>
-        <p className="mt-2 text-sm font-semibold text-[#8a988f]">[ Document à fournir par JVS ]</p>
+        <p className="mt-2 text-sm font-semibold text-[#5f6f66]">[ Document à fournir par JVS ]</p>
       </div>
       <span className="mt-1 rounded-full bg-[#1b4332]/5 px-3 py-1 text-xs font-bold text-[#52645d]">Bientôt disponible</span>
     </div>
@@ -48,7 +48,7 @@ export default function RessourcesPage() {
           <section className="px-4 py-20 lg:px-8">
             <div className="mx-auto max-w-[1240px]">
               <Reveal>
-                <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#d97706]">Documents</p>
+                <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#a95505]">Documents</p>
                 <h2 className="text-3xl font-extrabold text-[#1b4332] sm:text-4xl">Rapports annuels</h2>
                 <p className="mt-4 max-w-2xl leading-7 text-[#41564e]">
                   Cette section accueillera les rapports d'activité publiés par JVS. La structure est prête ; les fichiers seront ajoutés dès leur transmission.
@@ -68,7 +68,7 @@ export default function RessourcesPage() {
                   href="https://associationjvs.org/nos-rapports"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-8 inline-flex items-center gap-2 text-sm font-bold text-[#2d6a4f] transition-colors hover:text-[#d97706]"
+                  className="mt-8 inline-flex items-center gap-2 text-sm font-bold text-[#2d6a4f] transition-colors hover:text-[#a95505]"
                 >
                   <ExternalLink size={16} /> Voir les rapports actuels sur associationjvs.org
                 </a>
@@ -80,7 +80,7 @@ export default function RessourcesPage() {
           <section className="bg-white px-4 py-20 lg:px-8">
             <div className="mx-auto max-w-[1240px]">
               <Reveal>
-                <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#d97706]">Rejoindre JVS</p>
+                <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#a95505]">Rejoindre JVS</p>
                 <h2 className="text-3xl font-extrabold text-[#1b4332] sm:text-4xl">Recrutements</h2>
                 <p className="mt-4 max-w-2xl leading-7 text-[#41564e]">
                   Les avis ouverts sont mis en avant ; les avis clos sont automatiquement archivés et restent consultables.

@@ -41,10 +41,10 @@ export default function ContactPage() {
                 <div className="grid gap-4 sm:grid-cols-2">
                   {coords.map(([Icon, label, value, href]) => (
                     <div key={label} className="rounded-2xl border border-[#1b4332]/8 bg-white p-5 shadow-sm">
-                      <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#d97706]/10 text-[#d97706]"><Icon size={20} /></span>
+                      <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#d97706]/10 text-[#a95505]"><Icon size={20} /></span>
                       <p className="mt-3 text-sm font-bold text-[#1b4332]">{label}</p>
                       {href ? (
-                        <a href={href} className="mt-1 block text-sm text-[#52645d] transition-colors hover:text-[#d97706]">{value}</a>
+                        <a href={href} className="mt-1 block text-sm text-[#52645d] transition-colors hover:text-[#a95505]">{value}</a>
                       ) : (
                         <p className="mt-1 text-sm text-[#52645d]">{value}</p>
                       )}

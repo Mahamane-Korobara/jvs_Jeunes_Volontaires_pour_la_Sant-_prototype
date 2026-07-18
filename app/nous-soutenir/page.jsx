@@ -32,7 +32,7 @@ export default function NousSoutenirPage() {
               <div className="grid items-start gap-8 lg:grid-cols-2">
                 <Reveal>
                   <div className="mb-5 flex items-center gap-3">
-                    <span className="grid h-11 w-11 place-items-center rounded-2xl bg-[#d97706]/10 text-[#d97706]"><HandHeart /></span>
+                    <span className="grid h-11 w-11 place-items-center rounded-2xl bg-[#d97706]/10 text-[#a95505]"><HandHeart /></span>
                     <h2 className="text-2xl font-extrabold text-[#1b4332]">Faire un don</h2>
                   </div>
                   <MobileMoneyDon />

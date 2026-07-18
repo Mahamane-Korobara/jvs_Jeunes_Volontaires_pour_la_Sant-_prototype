@@ -20,7 +20,7 @@ export default function TeamCard({ name, role, image, delay = 0 }) {
       </div>
       <div className="p-5 text-center">
         <h3 className="text-lg font-extrabold text-[#1b4332]">{name}</h3>
-        <p className="mt-1 text-sm font-semibold text-[#d97706]">{role}</p>
+        <p className="mt-1 text-sm font-semibold text-[#a95505]">{role}</p>
       </div>
     </motion.article>
   );
