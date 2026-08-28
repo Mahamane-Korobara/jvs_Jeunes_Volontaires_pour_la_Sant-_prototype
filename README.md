@@ -81,3 +81,12 @@ Tous les textes, images, chiffres et noms proviennent du site officiel [associat
 ## 👤 Auteur
 
 **Mahamane Korobara** — proposition de refonte, JVS (AMI, juillet 2026).
+
+---
+
+## 👤 Auteur
+
+Développé par **Mahamane Korobara**, développeur full-stack.
+
+- 🌐 Portfolio & blog technique : **[sahelstack.tech](https://www.sahelstack.tech)**
+- 💼 GitHub : [@Mahamane-Korobara](https://github.com/Mahamane-Korobara)

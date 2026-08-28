@@ -28,3 +28,7 @@ yarn-error.log*
 /jvs/
 claude_images/
 /sources.md
+.claude/
+.codex/
+CLAUDE.md
+AGENTS.md
